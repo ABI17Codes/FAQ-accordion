@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    /* background-color: hsl(275, 100%, 97%); */
+}
+
+.faqcenter{
+    position: relative;
+    top: -150px;
+left: 30rem;
+    padding:50px 40px 50px 40px;
+    width: 500px;
+    height: 350px;
+    background-color: hsl(0, 0%, 100%);
+    /* background-color: hsl(0, 86%, 48%); */
+    border-radius: 20px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0px 0px 0px;
+    color: hsl(292, 16%, 49%);
+}
+h5{
+    padding:40px 0px 0px 0px; 
+    font-size: medium;
+    font-weight: 700;
+}
+h5:hover{
+    color: hsl(276, 81%, 50%);
+    transition:.2s all ease-in-out;
+}
+.faqtitle{
+    display: flex;
+    justify-content: space-between;
+}
+.plusimg{
+    padding: 35px 10px 0px 0px;
+    width: 50px;
+    height: 50px;
+    /* background-color: aqua; */
+}
+
+
+@media (max-width: 768px) {
+    .faqcenter {
+        left: 5rem;
+        width: 450px;
+        height: 300px;
+        top: -100px;
+    }
+
+    .faqtitle h5 {
+        font-size: 16px;
+    }
+
+    .faqtitle img {
+        width: 14px;
+        height: 14px;
+    }
+    .plusimg{
+        width: 100%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .faqcenter {
+        left: 2rem;
+        width: 300px;
+        height: 200px;
+        top: -80px;
+    }
+
+    .faqtitle h5 {
+        font-size: 14px;
+    }
+
+    .faqtitle img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .faq p {
+        font-size: 14px;
+    }
+    .plusimg{
+        width: 100%;
+        width: 50px;
+        height: 50px;
+    }
+    .attribution {
+        margin-top: 150px;
+      }
+}
+@media (max-width: 480px) {
+    .faqcenter {
+        padding: 10px;
+        width: 250px;
+        height: 150px;
+        top: -50px;
+    }
+    .attribution {
+        margin-top: 190px;
+      }
+      .faqtitle h5 {
+        font-size: 14px;
+    }
+     .plusimg{
+        width: 100%;
+        width: 50px;
+        height: 50px;
+    }
+}
